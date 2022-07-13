@@ -1,0 +1,52 @@
+.info-container ul{
+    list-style: none;
+}
+
+.info-list{
+    background-color: rgb(231, 225, 222);    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px 0;
+    margin: 0;
+}
+
+.info-container{
+    list-style: none;
+    border-radius: 2px;
+    background-color: rgb(201, 196, 194);
+    border-bottom: 2px solid rgb(77, 74, 74);
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.info-container h2{
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+}
+
+.more-button {
+    background-color: black; 
+    border: 1px solid black;
+    color: white;
+    padding: 8px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.more-button:hover {
+    cursor: pointer;
+    background-color: grey; 
+    border: 1px solid black;
+    color: black;
+}

@@ -1,0 +1,53 @@
+.project-button {
+    background-color: black; 
+    border: 1px solid black;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.project-button:hover {
+    cursor: pointer;
+    background-color: grey; 
+    border: 1px solid black;
+    color: black;
+}
+
+.container{
+    border-radius: 14px;
+    background-color: rgb(207, 202, 202); 
+    text-align: center;
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.container h4{
+    padding:10px 0 0 8px;
+    margin:0;
+    text-align: left;
+}
+.limits{
+    margin:0;
+}
+.limits input,label{
+    margin-right: 8px;
+}
+
+.err-msg{
+    color:rgb(128, 0, 0);
+    padding-bottom: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #700f02;
+    color: rgb(236, 224, 197);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+
+.app-title{
+    margin-left: 10px;
+    font-size: 36px; 
+    color: rgb(236, 224, 197);   
+}
+
+.header h3{
+    padding: 4px;
+    font-size: 14px;    
+}
+
+.stats{
+    margin-right: 80px;
+    padding: 4px;
+    background-color: rgb(180, 99, 89);
+}

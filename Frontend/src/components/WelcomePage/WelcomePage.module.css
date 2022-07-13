@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main-content{
+    text-align: center;
+    margin: 50px 100px;
+}
+
+.main-content h1{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.main-content p{
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+.btn p{
+    text-align:center;
+}
+
+.menu-button {
+    background-color: black; 
+    border: 1px solid black;
+    color: white;
+    padding: 13px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+    background-color: grey; 
+    border: 1px solid black;
+    color: black;
+}

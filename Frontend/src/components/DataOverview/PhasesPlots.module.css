@@ -1,0 +1,32 @@
+.main-content{
+    height: 545px;
+}
+
+.title{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.back-button {
+    background-color: black; 
+    border: 1px solid black;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    background-color: grey; 
+    border: 1px solid black;
+    color: black;
+}
