@@ -48,7 +48,7 @@ class RFParams(BaseModel):
     n_estimators: int
     max_features: str
     max_depth: str
-    min_samples_split: int
+    max_samples: float
     bootstrap: str
     technique: str
 

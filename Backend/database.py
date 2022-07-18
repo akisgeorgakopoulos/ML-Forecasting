@@ -38,9 +38,9 @@ data = {
           'name':'Random Forest',
           'used':False,
           'performance':{'pwrA':0.0,'pwrB':0.0,'pwrC':0.0},
-          "params_A":{"n_estimators":0, "max_depth":"0", "min_samples_split":0, "bootstrap":False, "max_features":"0", "technique":"-"},
-          "params_B":{"n_estimators":0, "max_depth":"0", "min_samples_split":0, "bootstrap":False, "max_features":"0", "technique":"-"},
-          "params_C":{"n_estimators":0, "max_depth":"0", "min_samples_split":0, "bootstrap":False, "max_features":"0", "technique":"-"}
+          "params_A":{"n_estimators":0, "max_depth":"0", "max_samples":0.0, "bootstrap":False, "max_features":"0", "technique":"-"},
+          "params_B":{"n_estimators":0, "max_depth":"0", "max_samples":0.0, "bootstrap":False, "max_features":"0", "technique":"-"},
+          "params_C":{"n_estimators":0, "max_depth":"0", "max_samples":0.0, "bootstrap":False, "max_features":"0", "technique":"-"}
         },
         'knn':{
           'name':'K-Nearest Neighbors',

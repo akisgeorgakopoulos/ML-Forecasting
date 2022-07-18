@@ -33,8 +33,8 @@ grid_parameters = {
         "n_estimators": [i for i in range(10,250,10)],
         "max_features":[0.3, 0.4, 0.5, 0.6, 0.9,'sqrt','auto','log2'],
         "max_depth": [2,5,10,40,None],
-        "min_samples_split": [i for i in range(2,50,10)],
-        "bootstrap": [False]
+        "max_samples": [0.3, 0.5, 0.6, 0.8, 0.9],
+        "bootstrap": [True]
     },
     'dt':{
         'criterion': ['squared_error', 'absolute_error'],
@@ -76,8 +76,8 @@ rand_parameters = {
         "n_estimators": [i for i in range(10,300,5)],
         "max_features":[0.3, 0.35, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9,'sqrt','auto','log2'],
         "max_depth": [2,5,10,20,40,100,None],
-        "min_samples_split": [i for i in range(2,50,5)],
-        "bootstrap": [False]
+        "max_samples": [i/10 for i in range(1,11,1)],
+        "bootstrap": [True]
     },
     'dt':{
         'criterion': ['squared_error', 'absolute_error'],
@@ -144,10 +144,7 @@ def randomized_optimization(algorithm,model,Xtrain,Ytrain,technique,iterations):
       random_state=42,
       return_train_score=False)  
       
-    if (technique == 'multioutput'):
-        rs.fit(Xtrain, Ytrain)
-        return rs.best_params_
-    elif (technique == 'multistep'):
+    if (technique == 'multistep'):
         rs.fit(Xtrain, Ytrain.ravel())
         return rs.best_params_
     elif (technique == 'multimodel'):
